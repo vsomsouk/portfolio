@@ -1,4 +1,17 @@
+body {
+    background-color: #EAE7DC;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    color: #E85A4F;
+}
+
+
+
 img#mainPhoto {
     width: 300px;
     height: 300px;
+    border-radius: 70px;
+    
 }
