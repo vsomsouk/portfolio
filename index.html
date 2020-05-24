@@ -4,23 +4,32 @@
 <head>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Activity 1: Vanida Somchaleunsouk</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="bgnavbar">
+    <a class="navbar-brand" href="#"><h1 class="header">About Me</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarmenu">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="index.html">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="assets/portfolio.html">PORTFOLIO</a>
+        <a class="nav-item nav-link" href="assets/contact.html">CONTACT</a>
+      </div>
+    </div>
+  </nav>
 
 
-
-  <div>
+  <div class="container">
     <section>
-      <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-      <h1 class ="header">About Me</h1>
 
-      <!-- Image with link -->
-      <img id ="mainPhoto" src="assets/images/bioimg.jpg" alt="bio-photo">
+      <img id ="mainPhoto" src="assets/images/bioimg.jpg" alt="bio-photo"> <br><br>
 
-      <!-- Paragraph with embedded link -->
       <p class="p">Hi there! My name is Vanida, and I am currently a full stack web development student at UofM Coding Boot Camp.
         I am also a Project Support Specialist for a medical products company.</p>
         
@@ -34,21 +43,7 @@
       </a></p>
     </section>
 
-    <!-- Section 2: Contact Info -->
-    <section>
 
-      <!-- h2: Tier-2 Headline -->
-      <h2 class="header">Contact Info</h2>
-
-      <!-- Unordered list -->
-      <ul>
-        <li><a href="https://github.com/vsomsouk"><strong>Github Profile</strong> </a></li>
-        <li><a href="https://www.linkedin.com/in/vanida-somchaleunsouk"><strong>LinkedIn</strong></a></li>
-        <li><a href="assets/images/resume.pdf"><strong>Resume</strong></a></li>
-        <li><a href="#"><strong>Portfolio</strong></a></li>
-      </ul>
-
-    </section>
   </div>
 
 </body>
