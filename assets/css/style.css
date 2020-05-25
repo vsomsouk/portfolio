@@ -4,8 +4,9 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.container {
-    background-color: #4f4f4f;
+.container, .card-body, .card-header {
+    background-color: #4f4f4f !important;
+
 }
 #bgnavbar {
     background-color: #4f4f4f !important;
@@ -26,7 +27,7 @@ body {
 .p {
     font-family: 'Nunito', sans-serif;
     width: 600px;
-    color: #D6D6D6;
+    color: #e85a4f;
 }
 
 img#mainPhoto {
@@ -34,4 +35,22 @@ img#mainPhoto {
     height: 300px;
     border-radius: 50px;
     
+}
+
+
+.card.text-center {
+    margin-bottom: 20px;
+    background-color: #d6d6d6;
+    color: #e85a4f;
+}
+
+.workimg {
+    width: 700px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+padding-left: 50px;
+padding-right: 50px;
 }
