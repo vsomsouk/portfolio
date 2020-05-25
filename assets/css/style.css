@@ -16,11 +16,13 @@ body {
 
 .header {
     color: #E85A4F;
+    font-size: 50px !important;
 }
 
 .nav-item.nav-link {
     color: #d6d6d6 !important;
     font-family: 'Nunito', sans-serif;
+    font-size: 22px !important;
      
 }
 
