@@ -1,23 +1,33 @@
 body {
-    background-color: #EAE7DC;
-    font-family: 'Nunito', sans-serif;
     padding: 40px;
+    background-color: #4f4f4f !important;
+    font-family: 'Nunito', sans-serif;
+}
 
+.container {
+    background-color: #4f4f4f;
 }
 #bgnavbar {
-    color: #8E8D8A;
+    background-color: #4f4f4f !important;
+    margin-bottom: 30px;
+    width: auto !important;
 }
 
 .header {
     color: #E85A4F;
 }
 
-.p {
-    width: 600px;
-    color: #8E8D8A;
+.nav-item.nav-link {
+    color: #d6d6d6 !important;
+    font-family: 'Nunito', sans-serif;
+     
 }
 
-
+.p {
+    font-family: 'Nunito', sans-serif;
+    width: 600px;
+    color: #D6D6D6;
+}
 
 img#mainPhoto {
     width: 300px;

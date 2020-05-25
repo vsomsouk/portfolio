@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <meta charset="UTF-8">
@@ -10,11 +10,24 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="bgnavbar">
+    <a class="navbar-brand" href="#"><h1 class="header">Contact Information</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarmenu">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" id="option" href="https://vsomsouk.github.io/portfolio/"> HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" id="option" href="portfolio.html">PORTFOLIO</a>
+        <a class="nav-item nav-link" id="option" href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
     <section>
         <BR>
-              <!-- h2: Tier-2 Headline -->
-              <h2 class="header">Contact Info</h2>
-        
+          <div class="container">
+
               <!-- Unordered list -->
               <ul>
                 <li><a href="https://github.com/vsomsouk"><strong>Github Profile</strong> </a></li>
@@ -24,6 +37,7 @@
               </ul>
         
             </section>
+          </div>
     
 </body>
 </html>
