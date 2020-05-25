@@ -11,8 +11,8 @@ body {
 
 #bgnavbar {
     background-color: #4f4f4f !important;
-    margin-bottom: 30px;
-    width: auto !important;
+    margin-bottom: 75px;
+
 }
 
 .header {
@@ -30,7 +30,8 @@ body {
 .p {
     font-family: 'Nunito', sans-serif;
     width: 600px;
-    color: #e85a4f;
+    color: #d6d6d6;
+    display: inline-block;
 }
 
 
@@ -38,6 +39,8 @@ img#mainPhoto {
     width: 300px;
     height: 300px;
     border-radius: 50px;
+    float: left;
+    margin-right: 20px;
     
 }
 
@@ -55,6 +58,29 @@ img#mainPhoto {
 }
 
 .card-text {
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 100px;
+padding-right: 100px;
+color:#d6d6d6;
+}
+
+#dbutton {
+    color: #d6d6d6 !important;
+}
+
+.link {
+    font-size:20px;
+    color:#e85a4f;
+}   
+
+div.form {
+    border: 1px solid #d6d6d6;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 50px;
+    color: #d6d6d6;
+}
+
+.subBtn, .contactinfo {
+    text-align: center;
+    color: #d6d6d6 !important;
 }
