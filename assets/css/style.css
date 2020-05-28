@@ -52,14 +52,16 @@ img#mainPhoto {
 }
 
 .workimg {
-    width: 700px;
     height: 500px;
     margin-bottom: 10px;
+    width: 75%;
+    height: auto;
+  
 }
 
 .card-text {
-padding-left: 100px;
-padding-right: 100px;
+width: 65%;
+margin:auto;
 color:#d6d6d6;
 }
 
@@ -74,10 +76,12 @@ color:#d6d6d6;
 
 div.form {
     border: 1px solid #d6d6d6;
-    margin-left: 275px;
-    margin-right: 275px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px;
     color: #d6d6d6;
+    width: 65%;
+    height: auto;
 }
 
 .subBtn, .contactinfo {
