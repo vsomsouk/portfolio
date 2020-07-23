@@ -1,90 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio</title>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="bgnavbar">
-        <a class="navbar-brand" href="#"><h1 class="header">Portfolio</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarmenu">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" id="option" href="../index.html"> ABOUT ME</a>
-            <a class="nav-item nav-link" id="option" href="portfoliop.html">PORTFOLIO</a>
-            <a class="nav-item nav-link" id="option" href="contact.html">CONTACT</a>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light " id="bgnavbar">
+    <a class="navbar-brand" href="#">
+      <h1 class="header">PORTFOLIO</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarmenu">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" id="option" href="../index.html"> ABOUT ME</a>
+        <a class="nav-item nav-link" id="option" href="portfoliop.html">PORTFOLIO</a>
+        <a class="nav-item nav-link" id="option" href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-header">
+        <h2>Workday Scheduler</h2>
+      </div>
+      <div class="card-body">
+        <p class="card-text mb-2">This application includes JQuery, moment.js and Bootstrap.
+          The scheduler will allow users to save events for each hour of the work day.
+          When they type in an event, they will be able to click save.
+          If they close out of their web browser or need to change details of their scheduled event,
+          the application will remain saved when they go back to the page.</p>
+        <img class="workimg" src="images/dayscheduleimg.JPG" alt="workday-photo"><br>
+        <a href="https://vsomsouk.github.io/work-day-scheduler/" id="dbutton"
+          class="btn btn-secondary btn-lg-btn-block">Deployed Link: Workday Scheduler</a>
+        <a href="https://github.com/vsomsouk/work-day-scheduler" id="dbutton"
+          class="btn btn-secondary btn-lg-btn-block">Github Link: Workday Scheduler</a>
+      </div>
+    </div>
 
     <div class="card text-center">
-        <div class="card-header">
-          <h2>Workday Scheduler</h2>
-        </div>
-        <div class="card-body">
-          <p class="card-text">This application includes JQuery, moment.js and Bootstrap. 
-              The scheduler will allow users to save events for each hour of the work day. 
-              When they type in an event, they will be able to click save. 
-              If they close out of their web browser or need to change details of their scheduled event, 
-              the application will remain saved when they go back to the page.</p>
-            <img class="workimg" src="images/dayscheduleimg.JPG" alt="workday-photo"><br>
-          <a href="https://vsomsouk.github.io/work-day-scheduler/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Deployed Link: Workday Scheduler</a>
-          <a href="https://github.com/vsomsouk/work-day-scheduler" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github Link: Workday Scheduler</a>
-        </div>
+      <div class="card-header">
+        <h2>Weather Dashboard</h2>
       </div>
+      <div class="card-body">
+        <p class="card-text mb-2">As a user, we want to create a weather dashboard where they can
+          search a particular city and view the current forecast.
+          The forecast will include the temperature, humidity, wind speed and UV index.
+          A 5-day forecast will be shown below what the weather will look like in the future.</p>
+        <img class="workimg" src="images/weatherimg.JPG" alt="workday-photo"><br>
+        <a href="https://vsomsouk.github.io/weather-dashboard/" id="dbutton"
+          class="btn btn-secondary btn-lg-btn-block">Deployed Link: Weather Dashboard</a>
+        <a href="https://github.com/vsomsouk/weather-dashboard" id="dbutton"
+          class="btn btn-secondary btn-lg-btn-block">Github Link: Weather Dashboard</a>
+      </div>
+    </div>
 
-      <div class="card text-center">
-        <div class="card-header">
-          <h2>Weather Dashboard</h2>
-        </div>
-        <div class="card-body">
-          <p class="card-text">As a user, we want to create a weather dashboard where they can 
-              search a particular city and view the current forecast. 
-              The forecast will include the temperature, humidity, wind speed and UV index. 
-              A 5-day forecast will be shown below what the weather will look like in the future.</p>
-            <img class="workimg" src="images/weatherimg.JPG" alt="workday-photo"><br>
-          <a href="https://vsomsouk.github.io/weather-dashboard/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Deployed Link: Weather Dashboard</a>
-          <a href="https://github.com/vsomsouk/weather-dashboard" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github Link: Weather Dashboard</a>
-        </div>
+    <div class="card text-center">
+      <div class="card-header">
+        <h2>Recipe Now!</h2>
       </div>
-    
-      <div class="card text-center">
-        <div class="card-header">
-          <h2>Recipe Now!</h2>
-        </div>
-        <div class="card-body">
-          <p class="card-text">A no-nonsense application that returns a recipe to users based on their given search parameter. 
-            We wanted to create a very streamlined and straight forward website that preforms two different API calls and returns 
-            two sets of data that work together in the result.
-          </p>
-            <img class="workimg" src="images/projectoneimg.JPG" alt="workday-photo"><br>
-          <a href="https://iron318davis.github.io/RecipeNow/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Deployed Link: Recipe Now!</a>
-          <a href="https://github.com/iron318davis/RecipeNow/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github Link: Recipe Now!</a>
-        </div>
+      <div class="card-body">
+        <p class="card-text mb-2">A no-nonsense application that returns a recipe to users based on their given search
+          parameter.
+          We wanted to create a very streamlined and straight forward website that preforms two different API calls and
+          returns
+          two sets of data that work together in the result.
+        </p>
+        <img class="workimg" src="images/projectoneimg.JPG" alt="workday-photo"><br>
+        <a href="https://iron318davis.github.io/RecipeNow/" id="dbutton"
+          class="btn btn-secondary btn-lg-btn-block">Deployed Link: Recipe Now!</a>
+        <a href="https://github.com/iron318davis/RecipeNow/" id="dbutton"
+          class="btn btn-secondary btn-lg-btn-block">Github Link: Recipe Now!</a>
       </div>
+    </div>
 
-      <div class="card text-center">
-        <div class="card-header">
-          <h2>Code Quiz</h2>
-        </div>
-        <div class="card-body">
-          <p class="card-text">A multiple choice code quiz with a timer included. As the user goes through the 
-              quiz and answers incorrectly, the timer will be docked 10 seconds. Once all the questions have been answered,
-              a score will appear at the end.
-          </p>
-            <img class="workimg" src="images/quizimg.JPG" alt="workday-photo"><br>
-          <a href="https://vsomsouk.github.io/code-quiz/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Deployed Link: Code Quiz</a>
-          <a href="https://github.com/vsomsouk/code-quiz" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github Link: Code Quiz</a>
-        </div>
+    <div class="card text-center">
+      <div class="card-header">
+        <h2>Code Quiz</h2>
       </div>
+      <div class="card-body">
+        <p class="card-text mb-2">A multiple choice code quiz with a timer included. As the user goes through the
+          quiz and answers incorrectly, the timer will be docked 10 seconds. Once all the questions have been answered,
+          a score will appear at the end.
+        </p>
+        <img class="workimg" src="images/quizimg.JPG" alt="workday-photo"><br>
+        <a href="https://vsomsouk.github.io/code-quiz/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Deployed
+          Link: Code Quiz</a>
+        <a href="https://github.com/vsomsouk/code-quiz" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github
+          Link: Code Quiz</a>
+      </div>
+    </div>
 
-    </body>
+    <div class="card text-center">
+      <div class="card-header">
+        <h2>Employee Tracker</h2>
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+          Creating a content management system utilizing node, inquirer and My SQL. In this assignment, we will be creating an employee tracker. 
+          Information will be broken down by department, employee's personal information and their roles.
+        </p>
+        <img class="img-fluid" src="images/employee-tracker.gif" id="employeegif" alt="emp-tracker"><br>
+        <a href="https://github.com/vsomsouk/employee-tracker/" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github
+          Link and Instructions: Employee Tracker</a>
+      </div>
+    </div>
+
+  <div class="card text-center">
+    <div class="card-header">
+      <h2>Mixtape</h2>
+    </div>
+    <div class="card-body">
+      <p class="card-text mb-2">
+        Mixtape is a social media music sharing website built on node-express and MySQL.
+        It has a simple interface for sharing and voting on playlists.
+      </p>
+      <img class="workimg" src="images/mixtape.JPG" alt="mixtape"><br>
+      <a href="https://project-2-mixtape.herokuapp.com/" id="dbutton"
+        class="btn btn-secondary btn-lg-btn-block">Deployed Link: Mixtape</a>
+      <a href="https://github.com/vsomsouk/mixtape" id="dbutton" class="btn btn-secondary btn-lg-btn-block">Github Link:
+        Mixtape</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer pt-3">
+    <p></p>
+  </div>
+
+</body>
 </html>

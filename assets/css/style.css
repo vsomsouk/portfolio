@@ -1,22 +1,23 @@
 body {
     padding: 40px;
-    background-color: #4f4f4f !important;
+    background-color: #14080E !important;
     font-family: 'Nunito', sans-serif;
 }
 
 .container, .card-body, .card-header {
-    background-color: #4f4f4f !important;
+    background-color: #14080E !important;
 
 }
 
 #bgnavbar {
-    background-color: #4f4f4f !important;
+    background-color: #14080E !important;
     margin-bottom: 75px;
-
+    border-bottom-style: solid;
+    border-bottom-color: coral;
 }
 
 .header {
-    color: #E85A4F;
+    color: #49475b;
     font-size: 50px !important;
 }
 
@@ -44,19 +45,21 @@ img#mainPhoto {
     
 }
 
+.card-header {
+    color: #49475b;
+}
 
 .card.text-center {
     margin-bottom: 20px;
     background-color: #d6d6d6;
-    color: #e85a4f;
+    color: #799496;
 }
 
 .workimg {
     height: 500px;
     margin-bottom: 10px;
     width: 75%;
-    height: auto;
-  
+    height: auto; 
 }
 
 .card-text {
@@ -71,7 +74,7 @@ color:#d6d6d6;
 
 .link {
     font-size:20px;
-    color:#e85a4f;
+    color:#799496;
 }   
 
 div.form {
@@ -88,3 +91,16 @@ div.form {
     text-align: center;
     color: #d6d6d6 !important;
 }
+
+#employeegif {
+    height: 600px;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: coral;
+  }
