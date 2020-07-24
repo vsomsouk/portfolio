@@ -4,6 +4,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.navbar-toggler-icon {
+    color:white !important;
+
+}
 .container, .card-body, .card-header {
     background-color: #14080E !important;
 
